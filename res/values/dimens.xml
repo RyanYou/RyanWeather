@@ -1,0 +1,47 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="textSizeS2">18.0sp</dimen>
+    <dimen name="textSizeS3">15.0sp</dimen>
+    <dimen name="textSizeS4">12.0sp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="biz_weather_padding">10.0dip</dimen>
+    <dimen name="biz_plugin_weather_selectcity_indicator_textsize">12.0sp</dimen>
+    <dimen name="biz_plugin_weather_temperature_textsize">30.0sp</dimen>
+    <dimen name="biz_plugin_weather_pm25_data_textsize">25.0sp</dimen>
+    <dimen name="biz_plugin_weather_climate_textsize">20.0sp</dimen>
+    <dimen name="indicator_corner_radius">12dp</dimen>
+    <dimen name="indicator_internal_padding">4dp</dimen>
+    <dimen name="header_footer_left_right_padding">24dp</dimen>
+    <dimen name="header_footer_top_bottom_padding">12dp</dimen>
+    <dimen name="indicator_right_padding">10dp</dimen>
+    <dimen name="biz_plugin_weather_otherday_small_textsize">14.0sp</dimen>
+    <dimen name="biz_plugin_weather_otherday_image_size">60.0dip</dimen>
+    <dimen name="biz_plugin_weather_otherday_temperature_textsize">14.0sp</dimen>
+    <dimen name="biz_plugin_weather_otherday_climate_textsize">13.0sp</dimen>
+    <dimen name="font_size_large">18.0sp</dimen>
+    <dimen name="font_size_middle">16.0sp</dimen>
+    <dimen name="font_size_small">14.0sp</dimen>
+    <dimen name="font_size_extra_small">12.0sp</dimen>
+
+    <!-- 用于Dialog -->
+    <dimen name="dialogBase_width">288.0dip</dimen>
+    <dimen name="dialogBase_titleHeight">48.0dip</dimen>
+    <dimen name="dialogBase_titleIconMargin">12.0dip</dimen>
+    <dimen name="dialogBase_listWidth">254.0dip</dimen>
+    <dimen name="dialogBase_btnHeight">46.0dip</dimen>
+    <dimen name="dialogBase_btnArea_magrinLeft">10.0dip</dimen>
+    <dimen name="dialogBase_btnArea_magrinRight">10.0dip</dimen>
+    <dimen name="dialogBase_btnArea_magrinTop">20.0dip</dimen>
+    <dimen name="gallery_space">30.0dip</dimen>
+    <dimen name="common_menu_dialog_tile_marginTop">10.0dip</dimen>
+    <dimen name="common_menu_dialog_tile_marginBottom">5.0dip</dimen>
+    <dimen name="common_menu_dialog_layout_paddingLR">12.5dip</dimen>
+    <dimen name="common_menu_dialog_tilte_paddingLR">25.0dip</dimen>
+    <dimen name="common_menu_dialog_layout_cancel_marginTop">20.0dip</dimen>
+    <dimen name="common_menu_dialog_layout_cancel_marginBottom">18.0dip</dimen>
+    <dimen name="common_menu_dialog_layout_btn_marginTop">3.0dip</dimen>
+    <dimen name="common_menu_dialog_layout_btn_marginBottom">3.0dip</dimen>
+
+</resources>

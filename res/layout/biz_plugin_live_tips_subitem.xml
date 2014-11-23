@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp" >
+
+    <ImageView
+        android:id="@+id/live_tips_subitem_icon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:scaleType="fitCenter"
+        android:layout_alignParentLeft="true" 
+        android:src="@drawable/biz_plugin_weather_qing"/>
+
+    <TextView
+        android:id="@+id/live_tips_subitem_tipt"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginLeft="8dp"
+        android:gravity="center"
+        android:layout_toRightOf="@+id/live_tips_subitem_icon"
+        android:textColor="@color/white"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/live_tips_subitem_zs"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:layout_marginRight="20dp"
+        android:layout_toLeftOf="@+id/live_tips_subitem_arrow"
+        android:textColor="@color/white"
+        android:textSize="14sp"/>
+
+    <ImageView
+        android:id="@+id/live_tips_subitem_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:scaleType="fitCenter"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/skin_icon_arrow_right_normal" />
+
+</RelativeLayout>

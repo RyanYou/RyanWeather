@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="main_activity_actionbar_background_orange">#F38630</color>
+    <color name="main_activity_actionbar_background_orange_press">#EB6841</color>
+    <color name="white">#FFFFFF</color>
+    <color name="dark_black">#000000</color>
+    <color name="custom_toast_background_transparent_white">#DCFFFFFF</color>
+    <color name="custom_toast_font_color_gray">#73626E</color>
+    <color name="main_activity_block_bg_color">#32FFFFFF</color>
+    <color name="color_hei">#ff000000</color>
+    <color name="color_hei_8">#00000000</color>
+    <color name="color_zhonghui">#ff798089</color>
+    <color name="color_bai">#ffffffff</color>
+    <color name="color_bai_8">#ffffffff</color>
+    <color name="color_lan">#ff067bb1</color>
+    <color name="common_bg">#ffe6e6e6</color>
+    <color name="text_black">#ff333333</color>
+    <color name="text_white">#ffffffff</color>
+    <color name="text_gray">#ff777777</color>
+    <color name="text_black_disabled">#80333333</color>
+    <color name="text_white_disabled">#80ffffff</color>
+    <color name="text_shadow_color">#66000000</color>
+
+</resources>

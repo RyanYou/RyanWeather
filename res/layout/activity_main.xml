@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <include
+        android:id="@+id/title"
+        layout="@layout/main_title" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/title"
+        android:background="@drawable/biz_plugin_weather_shenzhen_bg"
+        android:orientation="vertical" >
+
+        <com.ryanweather.ui.pulltorefresh.PullToRefreshScrollView
+            xmlns:ptr="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/main_activity_pull_to_refresh_scrollview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            ptr:ptrAnimationStyle="flip"
+            ptr:ptrDrawable="@drawable/refresh_arrow_2" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <include
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    layout="@layout/biz_plugin_weather_item_first" />
+
+                <include
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    layout="@layout/biz_plugin_weather_further_four_days" />
+
+                <include
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    layout="@layout/biz_plugin_weather_live_tips" />
+            </LinearLayout>
+        </com.ryanweather.ui.pulltorefresh.PullToRefreshScrollView>
+    </LinearLayout>
+
+</RelativeLayout>
